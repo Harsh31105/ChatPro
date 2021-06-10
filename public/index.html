@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatPro</title>
+    <link rel="stylesheet" href="css/style.css" class="css">
+</head>
+
+<body>
+    <div class="join-container">
+        <header class="join-header">
+            <h1>ChatPro</h1>
+        </header>
+        <main class="join-main">
+            <form action="chat.html">
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Enter Username" required autocomplete="off">
+                </div>
+                <div class="form-control">
+                    <label for="room">Room</label>
+                    <select name="room" id="room">
+                        <option value="Coders">Coders</option>
+                        <option value="School">School</option>
+                        <option value="Family">Family</option>
+                        <option value="Nonsense">Nonsense</option>
+                    </select>
+                </div>
+                <button class="btn" type="submit">Join Chat</button>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
